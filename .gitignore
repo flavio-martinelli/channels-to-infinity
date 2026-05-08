@@ -8,10 +8,6 @@
 data/
 plots/
 
-# Serialized simulation results
-*.dat
-*.jld2
-
 # Python / matplotlib caches
 __pycache__/
 
