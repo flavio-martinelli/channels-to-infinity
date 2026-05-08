@@ -150,7 +150,3 @@ script (`seed_range(slot_id, seeds_per_slot = …)`).
 
 See `src/argparsing.jl` for the CLI flag definitions and `src/distributed.jl`
 for how workers are added.
-
-## License
-
-Released under the MIT License — see `LICENSE`.
