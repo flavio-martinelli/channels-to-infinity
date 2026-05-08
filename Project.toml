@@ -1,0 +1,26 @@
+name = "channels-to-infinity"
+authors = ["Flavio Martinelli", "Johanni Brea"]
+
+[deps]
+AbstractGPs = "99985d1d-32ba-4be9-9821-2ec096f28918"
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Hungarian = "e91730f6-4275-51fb-a7a0-7064cfbd3b39"
+HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+MLPGradientFlow = "5710a1e5-60a8-4c70-afc1-f14619eff7f5"
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+VectorizationBase = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
+
+[compat]
+DrWatson = "2.18.0"
+julia = "1.9.4"

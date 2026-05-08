@@ -1,0 +1,30 @@
+# plot_formatting_settings.mplstyle
+
+font.family: Arial
+font.size: 10
+axes.titlesize: 10
+axes.labelsize: 10
+xtick.labelsize: 7
+ytick.labelsize: 7
+legend.fontsize: 9
+
+lines.linewidth: 0.5
+axes.linewidth: 0.5
+
+xtick.major.width: 0.5
+xtick.minor.width: 0.5
+ytick.major.width: 0.5
+ytick.minor.width: 0.5
+
+lines.markersize: 5
+
+axes.spines.top: False
+axes.spines.right: False
+
+xtick.direction: out
+ytick.direction: out
+
+savefig.pad_inches : 0.01  # Use virtually all space when we specify figure dimensions
+
+# LaTeX packages
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{sfmath}
